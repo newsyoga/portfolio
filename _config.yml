@@ -1,0 +1,209 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Shantanu Randhir Pawar
+title: software Developer (fresher)
+email: shantanup410@gmail.com
+# email_title: Email (Email title override)
+phone: +91 91468 15528
+# phone_title: Phone (Phone title override)
+website:  https://pawar41.tech
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: 
+github_username:  jekyll
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
+instagram_username: 
+linkedin_username: jekyll
+xing_username: 
+pinterest_username: 
+youtube_username: 
+orcid_username: 
+googlescholar_username:
+
+# Additional icon links
+#additional_links:
+#- title: 
+#  icon: 
+#  url: 
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: assets/shantanu.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Enthusiastic and hardworking software engineer with a passion for learning and problem-solving. Eager to leverage technical skills and dedication to contribute to innovative projects and solutions in the software development field.
+  <style>
+  table{
+    margin: 0;
+  }
+  td{
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  </style>
+  **skills**
+    - Programming Languages: | Proficient in C++, Java, JavaScript
+    - Web Technologies: | HTML, CSS, Jekyll
+    - Frameworks Libraries: | React.js
+    - Database Management: | Experience with MySQL
+    - Version Control: | Git, GitHub
+
+  **certifications**
+    - Responsive web design [view](https://www.freecodecamp.org/certification/fcc5264a3c8-512c-440f-9df0-32fe49109b32/responsive-web-design)
+    - Java for problem solving [view](https://www.codechef.com/certificates/public/ca5ef17)
+    - Innovation Thinking and Design [view](https://drive.google.com/file/d/1-TpWBwo0QU96ZvL84vrnNheiI-eJzApz/view)
+
+  **qualities**
+    - Communication: | Excellent verbal and written communication abilities
+    - Teamwork: | Collaborative team player with a proactive approach
+    - Adaptability: | Quick learner with a flexible mindset and adaptability to new technologies
+    - Problem-Solving: | Strong analytical and problem-solving skills
+
+
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Blogging website (Jekyll)
+        link: http://newsyoga.blog/
+        link_text: website link
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/newsyoga/-
+          - title:  
+            icon: 
+            url: 
+        quote: >
+          The project involved creating a dynamic and customizable blogging website using Jekyll, a static site generator.
+        description: | # this will include new lines to allow paragraphs
+          Jekyll allows for the easy creation of static websites with minimal configuration, making it ideal for blogs and personal websites. **Skills learned**: website design using Figma, advance CSS, liquid programming language, Content Management, SEO Optimization, best web practices, Version Control Integration, Deployment, hosting on github-Pages.
+
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Portfolio website
+        link: http://pawar41.tech/
+        link_text: website link
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/newsyoga/portfolio
+        quote: >
+          The portfolio website project aimed to create a personalized website showcasing the skills, projects, and accomplishments of the software engineer.
+        description: | # this will include new lines to allow paragraphs
+          The site serves as a professional platform to highlight expertise, demonstrate coding abilities, and provide a glimpse into the engineer's career journey. **Skills learned**: Testing and Optimization, website design using Figma, advance CSS, liquid programming language, Content Management, SEO Optimization, best web practices, Version Control Integration, Deployment, hosting on github-Pages.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Foul detection system using OpenAI
+        link:
+        link_text: website link
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url:
+        quote: >
+          In this innovative project, I designed and implemented a Foul Detection System utilizing OpenAI's advanced technology.
+        description: | # this will include new lines to allow paragraphs
+          The primary goal was to develop a robust solution for detecting inappropriate or offensive content within digital text, ensuring a safer and more inclusive online environment.
+          This Foul Detection System using OpenAI represents a significant step towards creating a more inclusive and respectful online space by proactively identifying and addressing potentially harmful content. Its adaptability, real-time capabilities, and customizable features make it a valuable tool for content moderation across diverse digital platforms.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: USBCEE Electronics
+        sub_title: Intern (software development)
+        caption: Date Range (eg. November 2016 - present)
+        link: https://www.usbcee.com/
+        quote: >
+          As an intern in embedded development with a focus on C++, I gained valuable hands-on experience in developing firmware and software solutions for embedded systems. 
+        description: | # this will include new lines to allow paragraphs
+          Working closely with senior engineers, I contributed to various stages of the development lifecycle, including design, implementation, testing, and debugging. my internship experience in embedded development provided me with a solid foundation in C++ programming for embedded systems, as well as exposure to industry best practices and real-world application scenarios.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Zeal Polytechnic, Narhe, Pune
+        sub_title: Diploma in Electronics & Telecommunication
+        caption: Date Range (eg. 2018 - 2021)
+        quote: >
+          During my diploma in electronics and telecommunication, I gained comprehensive knowledge and practical skills in various areas of electronic engineering.
+        description: | # this will include new lines to allow paragraphs
+          In my diploma in electronics and telecommunication, I gained knowledge in electronic circuits, communication systems, signal processing, and microprocessor programming. Additionally, I learned about telecommunications networks, digital electronics, and practical skills such as circuit design and troubleshooting.
+
+      - layout: top-right
+        title: DY Patil, Akurdi, Pune
+        sub_title: Batcholers of E&TC Engineering
+        caption: Date Range (eg. 2021 - 2024)
+        quote: >
+          During my engineering studies, I discovered a keen interest in software development, including web development.
+        description: | # this will include new lines to allow paragraphs
+          During my bachelor's degree in electronics and telecommunication, I gained a strong understanding of fundamental principles in electronics, telecommunications, and signal processing. Additionally, I discovered a keen interest in software engineering, leading me to explore various programming languages and develop proficiency in software development methodologies. This journey sparked my passion for leveraging technology to solve complex problems and drive innovation.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I'm a new software engineer who loves learning and working hard. I'm super passionate about what I do. I enjoy tackling tough problems and always strive to improve. I'm excited to jump into the world of tech and make a difference! 
+      Please, give me an <mark>opportunity</mark> to work with you.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+#footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
