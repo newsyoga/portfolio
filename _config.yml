@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: portfolio
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -20,13 +20,13 @@ darkmode: never
 
 # Social links
 twitter_username: 
-github_username:  jekyll
+github_username: newsyoga
 stackoverflow_username: 
 dribbble_username: 
 facebook_username: 
 flickr_username: 
 instagram_username: 
-linkedin_username: jekyll
+linkedin_username: pawar41
 xing_username: 
 pinterest_username: 
 youtube_username: 
@@ -52,7 +52,7 @@ googlescholar_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/shantanu.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Enthusiastic and hardworking software engineer with a passion for learning and problem-solving. Eager to leverage technical skills and dedication to contribute to innovative projects and solutions in the software development field.
+  fast learner and hardworking software engineer with a passion for learning and problem-solving. Eager to leverage technical skills and dedication to contribute to innovative projects and solutions in the software development field.
   <style>
   table{
     margin: 0;
