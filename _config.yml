@@ -18,6 +18,7 @@ website:  https://pawar41.tech
 # Dark Mode (true/false/never)
 darkmode: never
 
+
 # Social links
 twitter_username: 
 github_username: newsyoga
@@ -52,7 +53,8 @@ googlescholar_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/shantanu.jpg
 about_content: | # this will include new lines to allow paragraphs
-  fast learner and hardworking software engineer with a passion for learning and problem-solving. Eager to leverage technical skills and dedication to contribute to innovative projects and solutions in the software development field.
+  In your service...
+  Fast learner and hardworking software engineer with a passion for learning and problem-solving. Eager to leverage technical skills and dedication to contribute to innovative projects and solutions in the software development field.
   <style>
   table{
     margin: 0;
@@ -72,9 +74,9 @@ about_content: | # this will include new lines to allow paragraphs
     - Version Control: | Git, GitHub
 
   **certifications**
-    - Responsive web design [view](https://www.freecodecamp.org/certification/fcc5264a3c8-512c-440f-9df0-32fe49109b32/responsive-web-design)
-    - Java for problem solving [view](https://www.codechef.com/certificates/public/ca5ef17)
-    - Innovation Thinking and Design [view](https://drive.google.com/file/d/1-TpWBwo0QU96ZvL84vrnNheiI-eJzApz/view)
+    - Responsive web design [[click]](https://www.freecodecamp.org/certification/fcc5264a3c8-512c-440f-9df0-32fe49109b32/responsive-web-design)
+    - Java for problem solving [[click]](https://www.codechef.com/certificates/public/ca5ef17)
+    - Innovation Thinking and Design [[click]](https://drive.google.com/file/d/1-TpWBwo0QU96ZvL84vrnNheiI-eJzApz/view)
 
   **qualities**
     - Communication: | Excellent verbal and written communication abilities
@@ -82,8 +84,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Adaptability: | Quick learner with a flexible mindset and adaptability to new technologies
     - Problem-Solving: | Strong analytical and problem-solving skills
 
-
-
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/194472388@N04/53570889746/in/dateposted-public/" title="webqr"><img src="https://live.staticflickr.com/65535/53570889746_ea7ee5a419_o.png" width="151" height="149" alt="webqr"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -91,9 +92,27 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: indiatimer.online
+        link: https://indiatimer.online/
+        link_text: click here (indiatimer.online)
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/newsyoga/Indiatimer.online
+          - title:  
+            icon: 
+            url: 
+        quote: >
+          The project is a website build using bootstrap (beginner) and jekyll (intermediate), javascript (intermediate), Html & CSS.
+        description: | # this will include new lines to allow paragraphs
+          Website that caters the need for simple technology like timer with multilingual options. Degined specifically for indian audiances. 
+          Our website has three widely used languages in india "Hindi", "Marathi" & "English", providing option for a simple mantra counter and Timer upto 1 hour.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Blogging website (Jekyll)
         link: http://newsyoga.blog/
-        link_text: website link
+        link_text: click here (newsyoga.blog)
         additional_links:
           - title:  Github page for project
             icon: fab fa-github
@@ -105,14 +124,12 @@ content:
           The project involved creating a dynamic and customizable blogging website using Jekyll, a static site generator.
         description: | # this will include new lines to allow paragraphs
           Jekyll allows for the easy creation of static websites with minimal configuration, making it ideal for blogs and personal websites. **Skills learned**: website design using Figma, advance CSS, liquid programming language, Content Management, SEO Optimization, best web practices, Version Control Integration, Deployment, hosting on github-Pages.
-
-
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Portfolio website
         link: http://pawar41.tech/
-        link_text: website link
+        link_text: click here (pawar41.tech)
         additional_links:
           - title:  Github page for project
             icon: fab fa-github
@@ -121,7 +138,6 @@ content:
           The portfolio website project aimed to create a personalized website showcasing the skills, projects, and accomplishments of the software engineer.
         description: | # this will include new lines to allow paragraphs
           The site serves as a professional platform to highlight expertise, demonstrate coding abilities, and provide a glimpse into the engineer's career journey. **Skills learned**: Testing and Optimization, website design using Figma, advance CSS, liquid programming language, Content Management, SEO Optimization, best web practices, Version Control Integration, Deployment, hosting on github-Pages.
-
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed

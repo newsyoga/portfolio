@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
+
+      {%- include about.html -%}
+
+      {%- if site.version == 2 -%}
+        {% for section in site.content %}
+          <div class="container {{ section.layout }}-container">
+            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          </div>
+        {% endfor %}
+      {% else %}
+        {%- include v1/default.html -%}
+      {%- endif -%}
+    </div>
+  </main>
+  <div class="container {{ section.layout }}-container">
+    <h3>Certificates</h3>
+   <a style="font-size: 20px; text-decoration: none;" href="https://www.freecodecamp.org/certification/fcc5264a3c8-512c-440f-9df0-32fe49109b32/responsive-web-design"><img class="c1 ct" src="../assets/certs/1.png"><br><br><span class="p-4">click here, to view certificate source.</span></a>
+   <a style="font-size: 20px; text-decoration: none;" href="https://www.codechef.com/certificates/public/ca5ef17"> <img class="c2 ct" src="../assets/certs/2.png"><br><br><span class="p-4">click here, to view certificate source.</span> </a><br><br><br><br><br><br>
+   <a style="font-size: 20px; text-decoration: none;" href="https://drive.google.com/file/d/1-TpWBwo0QU96ZvL84vrnNheiI-eJzApz/view"> <img class="c3 ct" src="../assets/certs/3.png"><br><br><span class="p-4">click here, to view certificate source.</span> </a>
+  </div>
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>

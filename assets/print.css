@@ -1,0 +1,19 @@
+.wrapper div:nth-child(3)[class="container list-container"] {
+    margin-top: 20%;
+}
+
+.wrapper div:nth-child(4)[class="container list-container"] {
+    margin-top: 80%;
+}
+
+.ct{
+    margin-top: 1%;
+}
+
+.ct span, .p-4{
+    margin-top: 4%;
+}
+
+.p-4{
+    padding-top: 10%;
+}
